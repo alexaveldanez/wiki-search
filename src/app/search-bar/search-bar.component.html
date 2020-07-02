@@ -1,0 +1,36 @@
+<mat-card>
+<div class="box">
+
+  <div>
+    <p>
+      <span style="color: #4885ed">W</span>
+      <span style="color: #4885ed">i</span>
+      <span style="color: #db3236">k</span>
+      <span style="color: #db3236">i</span>
+      <span> </span>
+      <span style="color: #f4c20d">S</span>
+      <span style="color: #f4c20d">e</span>
+      <span style="color: #4885ed">a</span>
+      <span style="color: #3cba54">r</span>
+      <span style="color: #3cba54">c</span>
+      <span style="color: #db3236">h</span>
+    </p>
+  </div>
+  <div>
+    <img src="../../assets/earth.png">
+  </div>
+
+  <form (submit)="onFormSubmit($event)">
+    <div class="search-box">
+    <button mat-icon-button><mat-icon>search</mat-icon></button>
+    <input
+    type="search"
+    placeholder="Enter Search Term"
+    id="search-bar"
+    (input)='term = $event.target.value'>
+  </div>
+  </form>
+
+</div>
+</mat-card>
+

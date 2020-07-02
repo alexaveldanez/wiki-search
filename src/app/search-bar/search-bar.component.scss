@@ -1,0 +1,49 @@
+mat-card {
+  margin-top: 40px;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 20px;;
+}
+
+p {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+img {
+  height: 200px;
+  padding: 30px;
+}
+
+.search-box {
+  width: 630px;
+  height: 45px;
+  align-self: center;
+  justify-self: center;
+  border: 1px solid rgba(0, 0, 0, 0.151);
+  border-radius: 30px;
+}
+
+.search-box:focus {
+  box-shadow: 1px 1px 5px grey;
+}
+.search-box:hover {
+  box-shadow: 1px 1px 5px grey;
+}
+
+#search-bar {
+  width: 560px;
+  height: 35px;
+  margin-top: 5px;
+  border: none;
+}
+
+
+
+
