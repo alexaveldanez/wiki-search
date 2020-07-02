@@ -30,3 +30,9 @@ a {
 .content-table tbody tr:last-of-type {
   border-bottom: 2px solid lightgrey;
 }
+
+@media (max-width: 500px) {
+  .content-table {
+    min-width: 300px;
+  }
+}

@@ -44,6 +44,16 @@ img {
   border: none;
 }
 
+@media (max-width: 500px) {
+  .search-box {
+    width: 300px;
+  }
+
+  #search-bar {
+    width: 200px;
+  }
+}
+
 
 
 
